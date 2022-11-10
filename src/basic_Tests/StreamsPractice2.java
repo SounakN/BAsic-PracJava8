@@ -53,13 +53,7 @@ public class StreamsPractice2 {
 		System.out.println(loS.stream().filter(x->x.typeofjob.equals("developer")).mapToDouble(s->s.EmployeeSalary).average());
 		System.out.println(loS.stream().filter(x->x.typeofjob.equals("developer")).mapToDouble(s->s.EmployeeSalary).count());
 
-		BigDecimal b = null;
-		
-		System.out.println(b);
-		
-		
-
-		System.out.println(b);
+			
 	}
 
 }

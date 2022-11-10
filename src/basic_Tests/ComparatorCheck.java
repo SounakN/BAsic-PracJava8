@@ -64,10 +64,10 @@ public class ComparatorCheck extends Object {
 		
 		  Comparator<ComparatorCheck> c = (ComparatorCheck o1,ComparatorCheck o2) ->
 		  (o1.Employeeage>o2.Employeeage? 1:-1);
-		  Collections.sort(x,c);
+		  
 
-		  x.stream().map(s -> s.EmpyeeName).forEach(f -> System.out.println(f));
-			Collections.sort(x,c.reversed());
+			/* x.stream().map(s -> s.EmpyeeName).forEach(f -> System.out.println(f)); */
+			Collections.sort(x,c);
 			
 
 
